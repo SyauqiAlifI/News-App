@@ -12,4 +12,5 @@ data class News (
     val time: String,
     val category: String,
     val photo: Int
+
 ) : Parcelable
