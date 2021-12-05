@@ -27,6 +27,8 @@ class AllNewsFragment : Fragment() {
             adapter = NewsAdapter(DataNews.dataAllNews)
         }
 
+
+
         bindNewsHeadline(binding.newsHeadline, 0)
 
         return binding.root
